@@ -1,0 +1,26 @@
+<html lang="de">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Aufgabe 2 – Würfelspiele</title>
+</head>
+
+<body>
+    <h1>Würfelspiele</h1>
+
+    <label for="spiel">Wähle ein Spiel:</label>
+    <select id="spiel">
+        <option value="1">1: Würfeln bis Stopp</option>
+        <option value="2">2: 100 Würfe – Zähle Sechser</option>
+        <option value="3">3: Zwei Würfel – Gleichstand</option>
+        <option value="4">4: Zwei Würfel – Einer zeigt 6</option>
+        <option value="5">5: Zwei Würfel – Einer 6, einer 1</option>
+    </select>
+    <button onclick="startSpiel()">Start</button>
+
+    <pre id="output"></pre>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

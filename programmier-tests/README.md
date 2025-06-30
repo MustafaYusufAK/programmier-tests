@@ -226,3 +226,48 @@ Ein klassisches Beispiel für Vererbung & Polymorphie mit verschiedenen Angestel
 - `Gehaltstest` (Testklasse mit polymorphem Array)
 
 ### Beispielausgabe:
+
+
+
+## JavaScript – Aufgabe 1: Summe berechnen
+
+Eine einfache JS-Funktion, die zwei Zahlen entgegennimmt und deren Summe zurückgibt.
+
+```js
+function berechneSumme(a, b) {
+    return a + b;
+}
+
+
+
+## JavaScript – Aufgabe 2: Würfelspiele
+
+Diese Aufgabe besteht aus mehreren kleinen Würfelspielen, die verschiedene Zufallsbedingungen abbilden:
+
+1. **Ein Würfel wird so lange geworfen, bis eine 6 erscheint.**
+2. **100 Würfe werden durchgeführt und die Anzahl der Sechser gezählt.**
+3. **Zwei Würfel werden geworfen, bis beide die gleiche Augenzahl zeigen.**
+4. **Zwei Würfel werden geworfen, bis mindestens einer eine 6 zeigt.**
+5. **Zwei Würfel werden geworfen, bis einer eine 6 und der andere eine 1 zeigt.**
+6. **Alle Varianten sind über ein Dropdown auswählbar.**
+
+### Technologien
+- JavaScript (ES6)
+- DOM-Manipulation
+
+
+
+## JavaScript – Aufgabe 3: ToDo-Liste
+
+Eine einfache ToDo-App mit folgenden Funktionen:
+
+- Aufgaben hinzufügen über ein Eingabefeld + Button
+- Anzeige der Aufgaben in einer HTML-Liste (`<ul>`)
+- Aufgaben können als erledigt markiert werden (Checkbox)
+- Aufgaben können entfernt werden (Button)
+- (Bonus) Aufgaben werden im `localStorage` gespeichert und beim erneuten Öffnen wiederhergestellt
+
+### Technologien
+- JavaScript (ES6)
+- DOM-Manipulation
+- Browser localStorage
