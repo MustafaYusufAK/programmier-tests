@@ -142,3 +142,87 @@ Das Programm berechnet und gibt die Quadratzahlen von 1 bis 20 aus. Eine Quadrat
 ```bash
 javac aufgaben/Aufgabe09_Quadratzahlen/Quadratzahlen.java
 java aufgaben.Aufgabe09_Quadratzahlen.Quadratzahlen
+
+
+
+## Aufgabe 10 – Zahlensysteme
+
+### Beschreibung:
+Das Programm fragt den Benutzer, welches Zahlensystem er eingeben möchte (Zeichen, Oktal oder Hexadezimal), und wandelt die Eingabe in Dezimal- und Binärzahlen um. Das Programm läuft in einer Schleife, bis der Benutzer „E“ für Ende eingibt.
+
+---
+
+### Datei: `Zahlensysteme.java`
+
+#### Ausführung:
+```bash
+javac aufgaben/Aufgabe10_Zahlensysteme/Zahlensysteme.java
+java aufgaben.Aufgabe10_Zahlensysteme.Zahlensysteme
+
+Menü: Z)eichen, O)ktal, heX), E)nde? Z
+Gib ein einzelnes Zeichen ein: A
+Dezimal: 65
+Binär:   1000001
+
+Menü: Z)eichen, O)ktal, heX), E)nde? O
+Gib eine Oktalzahl ein (z.B. 17): 17
+Dezimal: 15
+Binär:   1111
+
+Menü: Z)eichen, O)ktal, heX), E)nde? X
+Gib eine Hexadezimalzahl ein (z.B. 1A): 1A
+Dezimal: 26
+Binär:   11010
+
+Menü: Z)eichen, O)ktal, heX), E)nde? E
+Programm wird beendet.
+
+
+
+## Aufgabe 11 – Steuerrechner
+
+### Beschreibung:
+Das Programm berechnet Umsatzsteuer und Nettopreis:
+1. Fest: 100 € brutto mit 20 % USt
+2. Benutzerdefiniert: beliebiger Bruttowert + beliebiger Steuersatz
+
+---
+
+### Datei: `Steuerrechner.java`
+
+#### Ausführung:
+```bash
+javac aufgaben/Aufgabe11_Steuerrechner/Steuerrechner.java
+java aufgaben.Aufgabe11_Steuerrechner.Steuerrechner
+
+
+
+## Aufgabe 12 – Sparbuch
+
+### Beschreibung:
+Das Programm simuliert die Entwicklung eines Startbetrags über 10 Jahre mit Zinseszins. Zinssatz und Anfangsbetrag werden vom Benutzer eingegeben.
+
+---
+
+### Datei: `Sparbuch.java`
+
+#### Ausführung:
+```bash
+javac aufgaben/Aufgabe12_Sparbuch/Sparbuch.java
+java aufgaben.Aufgabe12_Sparbuch.Sparbuch
+
+
+
+## Aufgabe 13 – Polymorphismus
+
+### Beschreibung:
+Ein klassisches Beispiel für Vererbung & Polymorphie mit verschiedenen Angestelltenarten: Sekretärin, Verkäufer, Manager. Das Programm zeigt die Verwendung abstrakter Klassen, Überschreiben von Methoden und dynamischem Binden bei der Gehaltsberechnung.
+
+### Klassenstruktur:
+- `Angestellter` (abstrakt)
+- `Sekretaerin`
+- `Verkaeufer`
+- `Manager`
+- `Gehaltstest` (Testklasse mit polymorphem Array)
+
+### Beispielausgabe:

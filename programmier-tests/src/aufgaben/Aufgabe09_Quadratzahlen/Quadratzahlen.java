@@ -6,7 +6,7 @@ public class Quadratzahlen {
 
         for (int i = 1; i <= 20; i++) {
             int quadrat = i * i;
-            System.out.println(i + "² = " + quadrat);
+            System.out.println(i + " * " + i + " = " + quadrat);
         }
     }
 }
