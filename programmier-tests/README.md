@@ -271,3 +271,50 @@ Eine einfache ToDo-App mit folgenden Funktionen:
 - JavaScript (ES6)
 - DOM-Manipulation
 - Browser localStorage
+
+
+
+## JavaScript – Aufgabe 4: JSON anzeigen
+
+Beim Laden der HTML-Seite wird eine `greeting.json`-Datei per HTTP (via `fetch()`) geladen.
+
+Die Inhalte werden anschließend im DOM dargestellt:
+- `"salutation"` (z. B. Herr) → Farbe `#9ABFDC`
+- `"firstname"`  → Farbe `#FF122F`
+- `"surname"`    → Farbe `#FFC21D`
+
+### Voraussetzungen:
+- Muss über HTTP geladen werden (z. B. via Apache oder VS Code Live Server)
+
+### Technologien
+- JavaScript (ES6)
+- DOM
+- fetch API
+- JSON
+
+
+
+### JavaScript – Aufgabe 5: AJAX
+
+Diese Aufgabe demonstriert dynamisches Nachladen von HTML-Dateien und Einbindung vorhandener Module per `fetch()`:
+
+**index.html:**
+- Button lädt `ajax.html` in ein `<div>` (per fetch).
+- ajax.html enthält selbst einen Button, der erneut `ajax.html` lädt.
+- Beim Seitenladen wird automatisch `todo.html` (aus Aufgabe 3) per AJAX in ein weiteres `<div>` geladen.
+
+**ajax.html:**
+- Beinhaltet eigenen Button & Container für Selbst-Nachladen.
+
+**todo.html:**
+- Eingabefeld + Button zur Erstellung von ToDos (voll funktionsfähig nach dynamischem Nachladen).
+- Eventhandler werden nach dem Laden über `setupTodoForm()` neu gebunden.
+
+**script.js:**
+- Enthält komplette Logik für Laden, Binden von Events und DOM-Manipulation.
+- Kein Inline-JS, kein `onclick=""`, alles sauber gekapselt.
+
+**Technologien:**
+- JavaScript (fetch API)
+- AJAX / DOM / Event-Binding
+- Modularer HTML-Aufbau
